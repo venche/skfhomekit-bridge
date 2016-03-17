@@ -1,0 +1,190 @@
+{
+  "Accessories": [
+    {
+      "InfoService": {
+        "id": "1",
+        "AccName": "Light-1",
+        "manufacture": "SILVAN",
+        "modelname": "DM110",
+        "serialnumber": "123456789",
+        "Accinfo_callback": "",
+        "service_type": 67
+      },
+      "Services": [
+        {
+          "serviceType": "",
+          "Characteristics": [
+            {
+              "charType": 35,
+              "permission": [
+                1,
+                null,
+                null
+              ],
+              "type": "string",
+              "initvalue": "Celing-Light",
+              "minVal": null,
+              "maxVal": null,
+              "steps": null,
+              "unit": null,
+              "Valchangecallback": {
+                "script": "app_usr_core_sendInstruction_identify.sh",
+                "id": "SR_D301",
+                "channel": "3",
+                "type": "switching",
+                "command": {
+                  "tg": "LT_3TG",
+                  "on": "LT_3ON",
+                  "off": "LT_3OF"
+                }
+              }
+            },
+            {
+              "charType": 37,
+              "permission": [
+                1,
+                2,
+                3
+              ],
+              "type": true,
+              "initvalue": "true",
+              "minVal": null,
+              "maxVal": null,
+              "steps": null,
+              "unit": null,
+              "Valchangecallback": {
+                "script": "app_usr_core_sendInstruction_identify.sh",
+                "id": "SR_D301",
+                "channel": "3",
+                "type": "switching",
+                "command": {
+                  "tg": "LT_3TG",
+                  "on": "LT_3ON",
+                  "off": "LT_3OF"
+                }
+              }
+            },
+            {
+              "charType": 8,
+              "permission": [
+                1,
+                2,
+                3
+              ],
+              "type": 8,
+              "initvalue": "8",
+              "minVal": 0,
+              "maxVal": 100,
+              "steps": 13,
+              "unit": 0,
+              "Valchangecallback": {
+                "script": "app_usr_core_sendInstruction_identify.sh",
+                "id": "SR_D301",
+                "channel": "3",
+                "type": "switching",
+                "command": {
+                  "tg": "LT_3TG",
+                  "on": "LT_3ON",
+                  "off": "LT_3OF"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "InfoService": {
+        "id": "1",
+        "AccName": "Light-1",
+        "manufacture": "SILVAN",
+        "modelname": "DM110",
+        "serialnumber": "123456789",
+        "Accinfo_callback": "",
+        "service_type": 67
+      },
+      "Services": [
+        {
+          "serviceType": "",
+          "Characteristics": [
+            {
+              "charType": 35,
+              "permission": [
+                1,
+                null,
+                null
+              ],
+              "type": "string",
+              "initvalue": "Celing-Light",
+              "minVal": null,
+              "maxVal": null,
+              "steps": null,
+              "unit": null,
+              "Valchangecallback": {
+                "script": "app_usr_core_sendInstruction_identify.sh",
+                "id": "SR_D301",
+                "channel": "3",
+                "type": "switching",
+                "command": {
+                  "tg": "LT_3TG",
+                  "on": "LT_3ON",
+                  "off": "LT_3OF"
+                }
+              }
+            },
+            {
+              "charType": 37,
+              "permission": [
+                1,
+                2,
+                3
+              ],
+              "type": true,
+              "initvalue": "true",
+              "minVal": null,
+              "maxVal": null,
+              "steps": null,
+              "unit": null,
+              "Valchangecallback": {
+                "script": "app_usr_core_sendInstruction_identify.sh",
+                "id": "SR_D301",
+                "channel": "3",
+                "type": "switching",
+                "command": {
+                  "tg": "LT_3TG",
+                  "on": "LT_3ON",
+                  "off": "LT_3OF"
+                }
+              }
+            },
+            {
+              "charType": 8,
+              "permission": [
+                1,
+                2,
+                3
+              ],
+              "type": 8,
+              "initvalue": "8",
+              "minVal": 0,
+              "maxVal": 100,
+              "steps": 13,
+              "unit": 0,
+              "Valchangecallback": {
+                "script": "app_usr_core_sendInstruction_identify.sh",
+                "id": "SR_D301",
+                "channel": "3",
+                "type": "switching",
+                "command": {
+                  "tg": "LT_3TG",
+                  "on": "LT_3ON",
+                  "off": "LT_3OF"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
